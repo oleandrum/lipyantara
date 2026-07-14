@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below.
+title: Lipyantara
+abstract: >-
+  A personal, offline-first Sanskrit script converter for Devanagari, IAST,
+  Harvard-Kyoto, ITRANS, and Velthuis, powered by the Aksharamukha
+  transliteration engine running client-side via WebAssembly.
+type: software
+authors:
+  - given-names: Ivan
+    family-names: Markovich
+    orcid: "https://orcid.org/0009-0008-9855-5229"
+repository-code: "https://github.com/oleandrum/lipyantara"
+url: "https://oleandrum.github.io/lipyantara/"
+license: MIT
+keywords:
+  - sanskrit
+  - devanagari
+  - transliteration
+  - script-converter
+  - iast
+  - harvard-kyoto
+  - itrans
+  - velthuis
+  - aksharamukha
+  - webassembly
+  - pwa
+  - offline-first

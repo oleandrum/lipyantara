@@ -3,6 +3,8 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: ["main"]
+    paths:
+      - "site/**"
   workflow_dispatch:
 
 permissions:
@@ -25,12 +27,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Ensure Jekyll is disabled
-        run: touch .nojekyll
+        run: touch site/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: "site"
 
       - name: Deploy to GitHub Pages
         id: deployment

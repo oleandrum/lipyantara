@@ -1,10 +1,11 @@
 # OS
 .DS_Store
+.dmg
+.app
 Thumbs.db
 
 # Editors
 .vscode/
-.idea/
 *.swp
 
 # Local

@@ -1,0 +1,15 @@
+{
+  "name": "lipyantara",
+  "version": "1.0.0",
+  "exports": "./main.ts",
+  "desktop": {
+    "app": {
+      "name": "Lipyantara",
+      "identifier": "com.oleandrum.lipyantara",
+      "icons": {
+        "macos": "./icons/app.icns"
+      }
+    },
+    "backend": "webview"
+  }
+}

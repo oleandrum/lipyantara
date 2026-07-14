@@ -13,6 +13,9 @@ authors:
     orcid: "https://orcid.org/0009-0008-9855-5229"
 repository-code: "https://github.com/oleandrum/lipyantara"
 url: "https://oleandrum.github.io/lipyantara/"
+doi: 10.5281/zenodo.21357335
+version: v1.0.1
+date-released: "2026-07-14"
 license: MIT
 keywords:
   - sanskrit

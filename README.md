@@ -135,6 +135,15 @@ The web site (`site/`) deploys via GitHub Pages through
 triggered on pushes that touch `site/**`. Set **Settings → Pages → Source**
 to **GitHub Actions**.
 
+## Citation
+
+If you use this in academic or research work, please cite it. GitHub's
+**"Cite this repository"** button (sidebar) generates APA/BibTeX from
+[`CITATION.cff`](CITATION.cff), or cite directly via DOI:
+
+> Markovich, I. (2026). *Lipyantara* (v1.0.1) [Software]. Zenodo.
+> <https://doi.org/10.5281/zenodo.21357335>
+
 ## Credits & license
 
 This repository's own code (HTML/CSS/JS/TS) is licensed under the
